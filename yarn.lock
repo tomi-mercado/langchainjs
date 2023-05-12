@@ -18114,7 +18114,7 @@ __metadata:
       optional: true
     "@clickhouse/client":
       optional: true
-    "@dqdb/tiktoken":
+    "@dqbd/tiktoken":
       optional: true
     "@getmetal/metal-sdk":
       optional: true
