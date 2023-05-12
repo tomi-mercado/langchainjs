@@ -325,6 +325,7 @@
     "@aws-sdk/client-lambda": "^3.310.0",
     "@aws-sdk/client-s3": "^3.310.0",
     "@clickhouse/client": "^0.0.14",
+    "@dqbd/tiktoken": "^1.0.7",
     "@faker-js/faker": "^7.6.0",
     "@getmetal/metal-sdk": "^2.0.1",
     "@huggingface/inference": "^1.5.1",
@@ -385,6 +386,7 @@
     "@aws-sdk/client-lambda": "^3.310.0",
     "@aws-sdk/client-s3": "^3.310.0",
     "@clickhouse/client": "^0.0.14",
+    "@dqbd/tiktoken": "^1.0.7",
     "@getmetal/metal-sdk": "*",
     "@huggingface/inference": "^1.5.1",
     "@opensearch-project/opensearch": "*",
@@ -424,6 +426,9 @@
       "optional": true
     },
     "@clickhouse/client": {
+      "optional": true
+    },
+    "@dqdb/tiktoken": {
       "optional": true
     },
     "@getmetal/metal-sdk": {
@@ -510,8 +515,8 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.4.3",
-    "@dqbd/tiktoken": "^1.0.7",
     "ansi-styles": "^5.0.0",
+    "base64-js": "^1.5.1",
     "binary-extensions": "^2.2.0",
     "browser-or-node": "^2.1.1",
     "expr-eval": "^2.0.2",
